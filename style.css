@@ -1,0 +1,130 @@
+/* Reset Margin dan Padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Profil Section */
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-info h1 {
+    font-size: 2.2em;
+    color: #2c3e50;
+}
+
+.profile-info p {
+    font-size: 1.1em;
+    color: #7f8c8d;
+}
+
+/* About Section */
+.section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #2980b9;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 5px;
+}
+
+.about p {
+    font-size: 1.1em;
+    color: #34495e;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+/* Experience Section */
+ul {
+    list-style: none;
+}
+
+.experience ul li {
+    margin-bottom: 20px;
+}
+
+.experience ul li p {
+    font-size: 1.1em;
+    color: #34495e;
+    margin-bottom: 5px;
+}
+
+.experience ul li ul {
+    padding-left: 20px;
+}
+
+.experience ul li ul li {
+    font-size: 1em;
+    color: #7f8c8d;
+}
+
+/* Education/Certification Section */
+.education ul li p {
+    font-size: 1.1em;
+    color: #34495e;
+    margin-bottom: 5px;
+}
+
+.education ul li p strong {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #95a5a6;
+    margin-top: 40px;
+    border-top: 1px solid #dcdcdc;
+    padding-top: 10px;
+}
+
+footer a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
